@@ -6,34 +6,44 @@ header{
     height: 100vh;
 }
 
+
 #parallax{
     height: 100vh;
     width: 100%;
+    perspective: 1px;
     position: absolute;
     top: 0;
-    perspective: 1px;
     overflow-x: hidden;
     overflow-y: auto;
-    
 }
 
 .paraLayer{
-    width: 100%;
+    text-align: center;
     height: 100vh;
+    width: 100%;
     position: absolute;
     top: 0;
 }
 
 #back{
     transform: translateZ(-3px) scale(4);
+    background-image: url(images/Triangle_Line.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #middle{
     transform: translateZ(-2px) scale(3);
+    background-image: url(images/X_HalfCircle.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #front{
     transform: translateZ(-1px) scale(2);
+    background-image: url(images/ZigZag_SmallCircle.png);
+    background-repeat: no-repeat;
+    background-size: cover;  
 }
 
 #ham{
