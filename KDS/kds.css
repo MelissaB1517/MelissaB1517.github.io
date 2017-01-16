@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+
+header{
+    font-family: "museo-sans";
+    background-image: url(images/KDS_hero.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#container{
+    margin-top: 20vh;
+    height: 30vh;
+    
+}
+
+.tagline{
+    color: #a4966f;
+    font-weight: 100;
+    font-size: calc(1em + .5vw);
+    text-align: center;
+    width: 65vw;
+    max-width: 501px;
+    letter-spacing: 2px;
+    margin: auto;
+}
+
+#bold{
+    font-weight: 500;  
+}
+
+#logoBox{
+    min-width: 400px;
+    text-align: center;
+}
+
+#logo{
+    width: 40vw;
+    min-width: 300px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+#italic{
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 0;
+}
+
+.gray{
+    background-color: #e1e1e1;
+    text-align: center;
+}
+
+.message{
+    background-color: #e1e1e1;
+    font-family: "museo-sans";
+    font-size: calc(.5em + 1vw);
+    font-weight: 100;
+    max-width: 550px;
+    margin: auto;
+    padding: 2.5vh;
+    text-align: center; 
+}
+
+#flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    margin: 40px;
+}
+
+.flexitem{
+    text-align: center;
+    width: 30%;
+    height: 30%;
+}
+
+.item{
+    display: inline-block;
+    color: #a4966f;
+    border: 2px solid #a4966f;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    line-height: 40px;
+    margin-top: 30px;
+    
+}
+
+.itemScript{
+    font-family: "museo-sans";
+    font-weight: 100;
+    font-size: .85em;
+    text-align: center;
+}
+
+footer{
+    background-color: #373737;
+    color: #a4966f;
+    padding: 15px;
+}
+
+#copy{
+    display: inline-block;
+    font-family: "museo-sans";
+    font-size: .85em;
+    margin-left: 1vw;
+}
+
+#contact{
+    display: inline-block;
+    float: right;
+    margin-right: 1vw;
+    
+}
+
+#contact, a{
+    color: white;
+    font-family: "museo-sans";
+    font-size: .85em;
+}
