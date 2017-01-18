@@ -2,7 +2,13 @@
 <html>
     <head>
         <title>Melissa Buffalohead</title>
+        
         <link href="https://fonts.googleapis.com/css?family=Lobster|Source+Sans+Pro:400,600,700" rel="stylesheet">
+        
+        <link rel="stylesheet" type="text/css" href="../Hover-master/css/hover-min.css" />
+        
+        <link href="https://opensource.keycdn.com/fontawesome/4.7.0/font-awesome.min.css" rel="stylesheet">
+        
         <link rel="stylesheet" type="text/css" href="Portfolio.css">
     </head>
     <body>
@@ -32,6 +38,13 @@
         <!--Put mobile nav menu outside of header so I can click on header to close menu-->
         <nav>
             <img id="ham" src="images/Hamburger-05.svg" />
+            <div class="regularNav">
+                <div class="navContainer">
+                    <a href="#about">About Me</a>
+                    <a href="#portfolio">Portfolio</a>
+                    <a href="#Contact">Contact</a>
+                </div>
+            </div>
         </nav>
         <div id="HamNav">
                 <a class="mobileNav" href="#about">About Me</a>
@@ -49,21 +62,28 @@
         <div id="portfolio" class="section">
             <p class="Head2">Portfolio</p>
                 <div id="flex">
-                    <a href="#"><div><img class="pic" src="https://static.pexels.com/photos/915/apple-camera-desk-office.jpg" /></div></a>
                     
-                    <a href="#"><div><img class="pic" src="https://static.pexels.com/photos/6384/woman-hand-desk-office.jpg" /></div></a>
+                    <a href="http://www.omabop.org" target="_blank"><div class="example hvr-grow">
+                        <img class="pic" src="images/bridgesHomepage.png" />
+                    </div></a>
                     
-                    <a href="#"><div><img class="pic" src="https://static.pexels.com/photos/6440/magazines-desk-work-workspace.jpg" /></div></a>
+                    <a href="https://melissab1517.github.io/KDS/kds.html" target="_blank"><div class="example hvr-grow"><img class="pic" src="images/kdsHomepage.png" /></div></a>
                     
-                    <a href="#"><div><img class="pic" src="https://static.pexels.com/photos/7095/people-coffee-notes-tea.jpg" /></div></a>
+                    <a href="#"><div class="example hvr-grow"><img class="pic" src="https://static.pexels.com/photos/6440/magazines-desk-work-workspace.jpg" /></div></a>
+                    
+                    <a href="#"><div class="example hvr-grow"><img class="pic" src="https://static.pexels.com/photos/7095/people-coffee-notes-tea.jpg" /></div></a>
                 </div>
-        <div class="break"></div>
-            
-<!--Contact Me Section-->
-        <div id="Contact">
-            <p class="Head1">Get In Touch</p>    
-        </div>  
+            </div>
+        <div id="Contact" class="break">
+            <div id="contactContainer">
+                <div class="fa fa-envelope-o fa-2x icon"></div>
+                <div class="fa fa-phone fa-2x icon"></div>
+                <div class="fa fa-facebook fa-2x icon"></div>
+                <div class="fa fa-linkedin fa-2x icon"></div>
+            </div>
         </div>
+            
+        
         
         <script
         src="https://code.jquery.com/jquery-2.2.4.min.js"
