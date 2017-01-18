@@ -58,6 +58,7 @@ header{
     right: 2vh;
 }
 
+
 #HamNav{
     display: none;
     width: 100vw;
@@ -160,6 +161,10 @@ header{
     position: absolute;
 }
 
+#Contact a{
+    color: white;
+}
+
 #contactContainer{
     position: absolute;
     width: 100%;
@@ -182,6 +187,7 @@ header{
 .fa{
     font-size: calc(2em - .25vw);
 }
+
 
 @media all and (min-width: 650px){
     
@@ -214,4 +220,10 @@ header{
         left: 50%;
         transform: translate(-50%, -50%);
     }
+}
+
+@media all and (max-width: 650px){
+    .regularNav{
+        display: none;
+}
 }
